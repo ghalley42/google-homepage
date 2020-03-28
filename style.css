@@ -5,7 +5,7 @@ body {
 
 #nav-bar {
     color: blue;
-    margin-bottom: 150px;
+    margin-bottom: 141px;
     top: 15px;
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,8 @@ body {
 
 .right{
     display: flex;
-    padding: 15px 12px 0 0;
+    padding: 15px 12px 0px 0;
+    align-items: flex-start;
 }
 
 .left {
@@ -23,6 +24,42 @@ body {
 
 .nav-link {
     padding: 0 12px 0 6.5px;
+}
+
+#images {
+    margin-left: -3.5px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 4px 4px 4px;
+    grid-template-rows: 4px 4px 4px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    margin-left: 3.5px;
+}
+
+.grid-item {
+    background: #777;
+    height: 4px;
+    width: 4px;
+}
+
+#nav-button {
+    color: #fff;
+    background: #4285f4;
+    line-height: 28px;
+    position: relative;
+    cursor: normal;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 13px;
+    padding-left: 12px;
+    top: -7.5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #google-logo {
@@ -57,14 +94,66 @@ body {
 #buttons {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: -2px;
+    left: -6.5px;
 }
 
 #bsbr {
     padding-left: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11.5px 4px;
+    padding: 3px 16px 3px 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#bsbr:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 #bsbl {
     padding-right: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 8px 11px 4px;
+    padding: 3px 16px 3px 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bsbl:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 #search-text {
