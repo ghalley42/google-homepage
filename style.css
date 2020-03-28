@@ -91,6 +91,32 @@ body {
     border-color: rgba(223,225,229,0);
 }
 
+#search-glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#glass-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 2px;
+}
+
+#voice-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#voice-icon {
+    height: 20px;
+    width: auto;
+    position: relative;
+    right: 21px;
+}
+
 #buttons {
     display: flex;
     justify-content: center;
@@ -175,6 +201,23 @@ body {
 
 #search-voice {
     width: 50px;
+}
+
+.corona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1a0dab;
+    position: relative;
+    top: 10px;
+}
+
+#corona-image {
+    height: 45px;
+    width: 45px;
+    margin-right: 9px;
+    position: relative;
+    top: 1px;
 }
 
 #footer {
